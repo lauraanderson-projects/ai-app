@@ -17,4 +17,58 @@ h1 {
   line-height: 1.5;
   font-weight: bold;
   text-align: center;
+  color: #596e79;
+}
+
+form {
+  padding: 30px;
+  background-color: #f0ece2;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(77, 76, 79, 0.08);
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.poem-prompt {
+  font-size: 16px;
+  background-color: white;
+  color: #596e79;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-shadow: 0 30px 50px rgba(77, 76, 79, 0.08);
+}
+
+.submit-poem {
+  color: white;
+  font-size: 16px;
+  width: 150px;
+  background-color: #c7b198;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 43px;
+}
+.returned-poem {
+  padding: 20px;
+  background-color: white;
+  color: #596e79;
+  font-size: 18px;
+  line-height: 2;
+  border-left: 2px solid #c7b198;
+  box-shadow: 0 20px 60px rgba(77, 76, 79, 0.08);
+
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  color: #596e79;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #596e79;
 }
