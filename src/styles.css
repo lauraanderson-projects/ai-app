@@ -52,12 +52,15 @@ form {
   padding: 15px 43px;
 }
 .returned-poem {
+  font-family: fantasy;
+  text-align: center;
   padding: 20px;
   background-color: white;
   color: #596e79;
   font-size: 18px;
   line-height: 2;
   border-left: 2px solid #c7b198;
+  border-right: 2px solid #c7b198;
   box-shadow: 0 20px 60px rgba(77, 76, 79, 0.08);
 
   border-radius: 4px;
