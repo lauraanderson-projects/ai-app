@@ -4,7 +4,6 @@ function displayPoem(response) {
     autoStart: true,
     cursor: "",
   });
-  console.log(response.data.answer);
 }
 
 function generatePoem(event) {
