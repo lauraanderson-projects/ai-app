@@ -20,13 +20,24 @@ h1 {
   color: #596e79;
 }
 
-form {
+.form-wrapper {
   padding: 30px;
   background-color: #f0ece2;
   border-radius: 10px;
   box-shadow: 0 20px 60px rgba(77, 76, 79, 0.08);
-  display: flex;
   margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  color: #72787b;
+  line-height: 1.5;
+  padding-top: 5px;
+  font-size: small;
+  opacity: 0.8;
 }
 
 .poem-prompt {
@@ -38,6 +49,7 @@ form {
   border: 1px solid grey;
   border-radius: 4px;
   box-shadow: 0 30px 50px rgba(77, 76, 79, 0.08);
+  opacity: 0.8;
 }
 
 .submit-poem {
@@ -50,6 +62,10 @@ form {
   border: none;
   padding: 15px 43px;
 }
+.hidden {
+  display: none;
+}
+
 .returned-poem {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -62,7 +78,6 @@ form {
   border-left: 2px solid #c7b198;
   border-right: 2px solid #c7b198;
   box-shadow: 0 20px 60px rgba(77, 76, 79, 0.08);
-
   border-radius: 4px;
 }
 
