@@ -52,7 +52,8 @@ form {
   padding: 15px 43px;
 }
 .returned-poem {
-  font-family: fantasy;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
   padding: 20px;
   background-color: white;
