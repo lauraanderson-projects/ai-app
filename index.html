@@ -4,33 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <div class="container">
+    <div class="wrapper">
       <header>
         <h1>The Poem Generator</h1>
       </header>
       <main>
         <div class="form-wrapper">
           <form id="poem-generator">
-            <input
-              type="text"
-              placeholder="Enter a topic for a poem here..."
-              required
-              autofocus
-              autocomplete="off"
-              class="poem-prompt"
-              id="poem-subject"
-            />
-            <input type="submit" class="submit-poem" />
+            <div class="flex-container wrap">
+              <input
+                type="text"
+                placeholder="Enter a topic for a poem here..."
+                required
+                autofocus
+                autocomplete="off"
+                class="poem-prompt grow"
+                id="poem-subject"
+              />
+              <input type="submit" class="submit-poem" />
+            </div>
           </form>
           <div class="hint">Example: Ocean, Flowers, Friends</div>
         </div>
-
         <div class="returned-poem hidden" id="poem"></div>
       </main>
       <footer>
